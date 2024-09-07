@@ -35,8 +35,7 @@ const Home = () => {
           Largest <br /> Crypto Marketplace
         </h1>
         <p>
-          Welcome to the world's largest cryptocurrency marketplace. Sign up to
-          explore more about crypto.
+          Welcome to the world's largest cryptocurrency forum. Learn more about crypto here
         </p>
         <form onSubmit={searchHandler}>
           <input type="text" placeholder="Search Crypto" onChange={inputHandler} list='coinlist' value={input} required/>
